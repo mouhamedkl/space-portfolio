@@ -1,0 +1,43 @@
+import { Expriences } from "@/constants";
+
+export const Exprience = () => {
+  return (
+    <section
+      id="exprience"
+      className="flex flex-col items-center justify-center py-20"
+    >
+      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+        Work Exprience
+      </h1>
+      <div className="w-full px-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {Expriences.map((experience, index) => (
+            <article
+              key={index}
+              className="rounded-2xl p-6 shadow-sm transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg"
+            >
+              <header className="mb-3 flex flex-col items-center text-center">
+                <h2 className="text-lg font-semibold text-neutral-900 dark:text-neutral-100">
+                  {experience.title}
+                </h2>
+                <p className="text-xs tracking-wide uppercase text-neutral-500 dark:text-neutral-400">
+                  {experience.date}
+                </p>
+              </header>
+
+              <ul className="list-disc list-inside text-sm text-neutral-700 dark:text-neutral-300 space-y-2 text-left">
+                {Array.isArray(experience.description) ? (
+                  experience.description.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))
+                ) : (
+                  <li>{experience.description}</li>
+                )}
+              </ul>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
