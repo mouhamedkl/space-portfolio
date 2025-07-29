@@ -295,7 +295,11 @@ export const PROJECTS = [
   {
     title: "Contact Doctor",
     description:
-      ['Smart symptom-based search to help patients find the right doctor quickly.Online appointment booking system for seamless scheduling.Real-time chat and direct communication between doctors and patients.Secure and responsive platform focused on user experience and accessibility.'],
+      ['Smart symptom-based search to help patients find the right doctor quickly.',
+        'Online appointment booking system for seamless scheduling.',
+        'Real-time chat and direct communication between doctors and patients.',
+        'Secure and responsive platform focused on user experience and accessibility.',
+      'Keywords:  Next.js, Express.js, REST API, MongoDB, WebSocket, TailwindCSS, JWT, Admin Dashboard, Authentication & Authorization.'],
     image: "/projects/1.3.png",
     link: "",
   },
@@ -343,9 +347,9 @@ export const Educations = [
     description: "Private Higher School of Engineering and Technology (ESPRIT)",
   },
    {
-    title: "Higher Institute of Technological Studies of Rades (ISET Rades)",
+    title: "Applied Bachelor’s Degree in Computer Science",
     date: "2017 - 2021",
-    description: "Applied Bachelor’s Degree in Computer Science",
+    description: "Higher Institute of Technological Studies of Rades",
   },
   {
     title: "School Diploma – Computer Science",
@@ -373,9 +377,10 @@ export const Expriences = [
       "Engineered a secure e-commerce platform for electric vehicle (EV) charging stations with client/admin dashboards.",
       "Implemented authentication and authorization with JWT and refresh tokens.",
       "Developed user, product, order,preorder, and complaint management modules using Angular, Spring Boot, and Mysql.",
-      "Integrated Google Maps API for geolocation and WebSocket for real-time notifications .",
+      "Integrated  WebSocket for real-time notifications.",
+      "Monitored system performance and metrics using Prometheus and Grafana.",
       "Optimized CI/CD pipelines with Docker, Jenkins, Nexus, and SonarQube.",
-      "Keywords: Angular, Node.js, Spring Boot, Mysql, JWT, RBAC, WebSocket, Google Maps API, Docker, CI/CD, Full-Stack Development, Real-Time Systems, Geolocation, REST API, Authentication & Authorization.",
+      "Keywords: Angular, Node.js, Spring Boot, Mysql, JWT, Prometheus and Grafana ,WebSocket, Docker, CI/CD, Full-Stack Development, Real-Time Systems, REST API, Authentication & Authorization.",
     ],
   },
 
