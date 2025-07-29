@@ -70,15 +70,15 @@ export const SKILL_DATA = [
 ] as const;
 
 export const SOCIALS = [
-  {
+      {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/klai.medamin",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/klai.medamin",
   },
   {
     name: "Github",
@@ -312,12 +312,12 @@ export const FOOTER_DATA = [
      {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/klai.medamin",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://www.facebook.com/klai.medamin",
   },
  
     ],
