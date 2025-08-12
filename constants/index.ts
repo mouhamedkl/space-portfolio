@@ -359,15 +359,15 @@ export const Educations = [
 ] as const;
 export const Expriences = [
   {
-    title: "Freelance Full-Stack Developer – Polyglette Travel Agency Platform",
+    title: "Freelance Full-Stack Developer – Booking Coif",
     date: "2025/02 - 2025/07",
     description: [
-    "Built a full-stack web platform for Polyglette travel agency with dedicated client and admin portals.",
-    "Designed REST APIs with Express.js and MongoDB, and implemented real-time messaging via WebSocket.",
-    "Developed an interactive admin dashboard and a responsive client interface using Next.js and TailwindCSS.",
-    "Secured the app with JWT + refresh tokens, role-based access (Admin/Client), protected routes, and conditional rendering.",
+    "Developed a full-stack hair salon appointment booking platform and implemented JWT authentication with cookies for secure, role-based access control.",
+    "Designed responsive booking UI with real-time stylist availability and appointment management.",
+    "Built RESTful APIs for user registration, scheduling, and admin salon management.",
+    "Integrated WebSocket notifications for instant updates on appointment status changes.",
     "Implemented tour/program management modules (CRUD, pricing, availability, media).",
-    "Keywords: Full-Stack Development, Next.js, Express.js, REST API, MongoDB, WebSocket, TailwindCSS, JWT, Admin Dashboard, Authentication & Authorization."
+    "Keywords: Full-Stack Development, Angular, Spring Boot, MongoDB, JWT, WebSocket, REST API, Authentication & Authorization."
   ]
   },
   {
